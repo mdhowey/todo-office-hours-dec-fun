@@ -1,0 +1,30 @@
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-color);
+  padding: 1rem;
+  width: 30rem;
+}
+
+.form__ele-wrapper {
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+}
+
+label {
+  color: var(--bg-color);
+  margin-bottom: 1rem;
+}
+
+.form__ele-wrapper>input {
+  background-color: var(--bg-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+}
+
+.sub__btn-wrapper {
+  margin: 1rem 0;
+  align-self: center;
+}

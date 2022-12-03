@@ -1,0 +1,23 @@
+.todo__item-wrapper {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: var(--light-color);
+  padding: 1.2rem 2rem;
+  border-radius: 0.2rem;
+  min-width: 15rem;
+}
+
+.todo__item-title {
+  text-transform: uppercase;
+}
+
+.todo__item-minutes {
+  color: var(--dark-color);
+}
+
+.danger {
+  background-color: #790f26;
+}
